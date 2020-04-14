@@ -3,3 +3,5 @@ coverage/
 .idea/
 .*.swp
 package-lock.json
+dist
+docs

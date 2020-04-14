@@ -1,0 +1,23 @@
+{
+  "opts": {
+    "destination": "docs",
+    "tutorials": "./tutorials"
+  },
+  "tags": {
+    "allowUnknownTags": true
+  },
+  "source": {
+    "include": ["src"],
+    "includePattern": ".+\\.ts$",
+    "excludePattern": ""
+  },
+  "plugins": [
+    "plugins/markdown"
+  ],
+  "templates": {
+    "default": {
+      "outputSourceFiles": false,
+      "readme": "README.md"
+    }
+  }
+}
